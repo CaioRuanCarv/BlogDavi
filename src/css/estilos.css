@@ -1,0 +1,70 @@
+body{
+    background-image: url(../imagens/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    font-family: 'VT323', monospace;
+    color: rgb(231, 231, 231);
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px
+}
+
+.cartao{
+    background-color: rgb(7, 147, 183);
+    width: 750px;
+    border: 2px solid #03ec83;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.cartao .minhas-informacoes{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px
+}
+.cartao .minhas-informacoes .nome{
+    font-size: 30px;
+}
+.cartao .minhas-informacoes .cargo{
+    font-size: 20px;
+    color: rgb(5, 68, 124);
+}
+
+.cartao .conteudo{
+    margin-top: 15px;
+
+}
+ .cartao .informacoes-abas{
+    background-color: rgb(8, 23, 46);
+ }
+
+ .informacoes-abas .informacao{
+    min-height: 300px;
+    padding: 15px;
+    display:none;
+ }
+
+ .informacoes-abas .informacao{
+    display: block;
+ }
+ 
+ .informacoes-abas .descricao{
+    font-size: 20px;
+    max-height: 250px;
+    overflow-y: auto;
+    padding-right: 10px;
+ }
+.informacoes-abas .descricao h1{
+   font-size: 22px;
+   margin-bottom: 25px;
+   margin-top: 15px;
+   text-align: center;
+}
+
